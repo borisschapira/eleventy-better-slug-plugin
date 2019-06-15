@@ -1,5 +1,5 @@
-import test from "ava";
-import { betterSlug } from "../src/better-slug";
+const { test } = require("ava");
+const { betterSlug } = require("../src/better-slug");
 
 test("Removes reserved characters", async t => {
   t.deepEqual(betterSlug("."), "");
