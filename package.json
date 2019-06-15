@@ -1,32 +1,32 @@
 {
-  "name": "@11ty/eleventy-base-plugin",
+  "name": "@borisschapira/eleventy-better-slug-plugin",
   "version": "1.0.0",
-  "description": "A starter project for a Plugin for the Eleventy static site generator.",
+  "description": "A plugin to improve Eleventy slug filter",
   "main": ".eleventy.js",
   "scripts": {
     "test": "npx ava"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/11ty/eleventy-base-plugin.git"
+    "url": "git+https://github.com/borisschapira/eleventy-better-slug-plugin.git"
   },
   "keywords": [
     "eleventy"
   ],
   "author": {
-    "name": "Zach Leatherman",
-    "email": "zachleatherman@gmail.com",
-    "url": "https://zachleat.com/"
+    "name": "Boris Schapira",
+    "email": "boris@schapira.dev",
+    "url": "https://boris.schapira.dev"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/11ty/eleventy-base-plugin/issues"
+    "url": "https://github.com/borisschapira/eleventy-better-slug-plugin/issues"
   },
-  "homepage": "https://github.com/11ty/eleventy-base-plugin#readme",
+  "homepage": "https://github.com/borisschapira/eleventy-better-slug-plugin/blob/master/README.md",
   "devDependencies": {
     "ava": "^0.25.0"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.2.13"
+    "@11ty/eleventy": "^0.8.3"
   }
 }
