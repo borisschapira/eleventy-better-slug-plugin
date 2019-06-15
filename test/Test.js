@@ -40,4 +40,5 @@ test("Idioms", async t => {
   t.deepEqual(betterSlug("John's car"), "johns-car");
   t.deepEqual(betterSlug("10 O'Clock Live"), "10-oclock-live");
   t.deepEqual(betterSlug("E!"), "e");
+  t.deepEqual(betterSlug("Me, Myself & I"), "me-myself-and-i");
 });
