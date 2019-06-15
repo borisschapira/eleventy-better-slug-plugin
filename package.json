@@ -1,5 +1,5 @@
 {
-  "name": "@borisschapira/eleventy-better-slug-plugin",
+  "name": "@borisschapira/eleventy-plugin-better-slug",
   "version": "1.0.0",
   "description": "A plugin to improve Eleventy slug filter",
   "main": ".eleventy.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/borisschapira/eleventy-better-slug-plugin.git"
+    "url": "git+https://github.com/borisschapira/eleventy-plugin-better-slug.git"
   },
   "keywords": [
     "eleventy"
@@ -20,13 +20,14 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/borisschapira/eleventy-better-slug-plugin/issues"
+    "url": "https://github.com/borisschapira/eleventy-plugin-better-slug/issues"
   },
-  "homepage": "https://github.com/borisschapira/eleventy-better-slug-plugin/blob/master/README.md",
+  "homepage": "https://github.com/borisschapira/eleventy-plugin-better-slug/blob/master/README.md",
   "devDependencies": {
     "ava": "^0.25.0"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.8.3"
+    "@11ty/eleventy": "^0.8.3",
+    "slugify": "^1.3.4"
   }
 }
