@@ -19,7 +19,7 @@ Examples:
 
 Add the plugin to your project with:
 
-`npm add borisschapira/eleventy-plugin-better-slug --save`
+`npm add @borisschapira/eleventy-plugin-better-slug --save`
 
 Then, in you `.eleventy.js` file:
 
