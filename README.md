@@ -34,3 +34,28 @@ module.exports = function(eleventyConfig) {
   …
 }
 ```
+
+## Configuration
+
+By design, this `slug' filter deletes all reserved characters but you can use a custom configuration to modify the characters to be deleted and even replace some characters.
+
+```js
+const pluginBetterSlug = require("@borisschapira/eleventy-plugin-better-slug");
+…
+
+module.exports = function(eleventyConfig) {
+  …
+  const options = {
+    extensions: {
+      "'": "-"
+    }
+  }
+  eleventyConfig.addPlugin(pluginBetterSlug, {});
+  …
+}
+```
+
+The `options` object is defined as follows:
+
+- `removals` (optional): a string containing the characters to remove (any value overwrites the default value)
+- `extensions` (optional): a charset of all the characters replacements (any new key-value pair is added to the default library)
